@@ -1,0 +1,7 @@
+default:
+  extensions:
+      Behat\MinkExtension:
+        base_url:  'https://github-laravel.dev'
+        sessions:
+          default:
+            symfony2: ~

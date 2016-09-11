@@ -1,2 +1,5 @@
-# github-laravel
-Github Laravel Example app for Leanpub Book
+# Behat Behat and More Behat Example App
+
+This will be an example app.
+
+More details coming soon...

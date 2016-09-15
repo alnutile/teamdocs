@@ -1,7 +1,11 @@
 default:
-  extensions:
-      Behat\MinkExtension:
-        base_url:  'https://github-laravel.dev'
-        sessions:
-          default:
-            symfony2: ~
+    extensions:
+        Laracasts\Behat:
+            env_path: .env
+        Behat\MinkExtension:
+            base_url: https://teamdocs-leanpub.dev
+            default_session: laravel
+            laravel: ~
+            selenium2:
+              wd_host: "http://selenium-server.dev:4444/wd/hub"
+            browser_name: chrome
